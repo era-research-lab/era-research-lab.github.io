@@ -47,6 +47,9 @@ Almost everything is data-driven. To update the site, edit the YAML files in
 
 Items marked `# TODO` need real information filled in.
 
+Lab members commit changes directly with Git — see [CONTRIBUTING.md](CONTRIBUTING.md)
+for setup and the commit/push workflow.
+
 ## Local preview
 
 ```bash
