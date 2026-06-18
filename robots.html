@@ -1,0 +1,42 @@
+---
+layout: page
+title: Robots & Platforms
+eyebrow: Hardware
+lead: The platforms, sensors, and computing hardware that power our field experiments.
+permalink: /robots/
+---
+
+<div class="callout">
+  <p class="note-todo"><strong>Note for lab members:</strong> the entries below are placeholders to establish the page structure. Update <code>_data/robots.yml</code> with the lab's actual platforms, photos, and sensor suites.</p>
+</div>
+
+{%- for group in site.data.robots -%}
+<section class="people-section">
+  <h2 class="people-section__title">{{ group.group }}</h2>
+  <div class="people-section__count"></div>
+  <div class="card-grid">
+    {%- for r in group.items -%}
+    <article class="robot-card">
+      <div class="robot-card__thumb">
+        {%- if r.status -%}<span class="robot-card__status">{{ r.status }}</span>{%- endif -%}
+        {%- if r.image and r.image != "placeholder.png" -%}
+        <img src="{{ '/assets/images/robots/' | append: r.image | relative_url }}" alt="{{ r.name }}" loading="lazy">
+        {%- else -%}
+        <div class="robot-card__thumb--empty"><i class="fas fa-robot"></i></div>
+        {%- endif -%}
+      </div>
+      <div class="robot-card__body">
+        <h3>{{ r.name }}</h3>
+        <p class="robot-card__desc">{{ r.short_description }}</p>
+        {%- if r.sensors and r.sensors.size > 0 -%}
+        <p class="robot-card__sensors"><strong>Sensors:</strong> {{ r.sensors | join: ", " }}</p>
+        {%- endif -%}
+        {%- if r.related_projects and r.related_projects.size > 0 -%}
+        <p class="robot-card__sensors" style="margin-top:0.4rem;"><strong>Related projects:</strong> {{ r.related_projects | join: ", " }}</p>
+        {%- endif -%}
+      </div>
+    </article>
+    {%- endfor -%}
+  </div>
+</section>
+{%- endfor -%}

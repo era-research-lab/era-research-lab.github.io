@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────────────────────
+# ERA Lab — site configuration
+# Embodied Robotics and Autonomy Lab @ University of South Florida
+# ─────────────────────────────────────────────────────────────
+
+title: ERA Lab
+long_title: Embodied Robotics and Autonomy Lab
+tagline: Intelligent robotic systems that perceive, reason, and act in the real world.
+description: >-
+  The ERA Lab at the University of South Florida develops intelligent robotic
+  systems that perceive, reason, and act in complex real-world environments.
+  Our research spans computer vision, robot perception, multimodal learning,
+  autonomous systems, and embodied AI.
+
+university: University of South Florida
+location: Tampa, Florida, USA
+
+# Principal investigator / contact
+pi_name: Xiaomin Lin
+pi_title: Assistant Professor
+email: xlin2@usf.edu
+
+# Recruiting form (from the PI's site)
+recruiting_form: https://docs.google.com/forms/d/e/1FAIpQLSeXImB61ZKzkJqOOAaDgvAr_eU9ePP57JG2KxMpzKN0GfopLg/viewform
+
+# Social / external links used in the footer
+links:
+  scholar: https://scholar.google.com/citations?user=nudP80UAAAAJ&hl=en
+  github: https://github.com/xiaominlin
+  twitter: https://twitter.com/XiaominLin11
+  linkedin: https://www.linkedin.com/in/xiaomin-lin/
+
+# ─── Build settings ───
+# Keep relative paths working. baseurl is "" because this deploys to the
+# user/organization page root (era-research-lab.github.io).
+baseurl: ""
+url: "https://era-research-lab.github.io"
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections-free: plain pages + data files keep maintenance simple.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

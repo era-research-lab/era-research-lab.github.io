@@ -1,0 +1,38 @@
+{%- comment -%}
+  Site navigation. To add or reorder pages, edit the `nav_items` list below.
+  `match` is used to highlight the active link based on the page URL.
+{%- endcomment -%}
+{%- assign nav_items = "Home,/ ;People,/people/ ;Robots,/robots/ ;Research,/research/ ;Publications,/publications/ ;News,/news/ ;Fun,/fun/ ;Opportunities,/opportunities/" | split: ";" -%}
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand__mark">ERA</span>
+      <span class="brand__text">
+        <span class="brand__name">ERA Lab</span>
+        <span class="brand__sub">USF · Embodied Robotics &amp; Autonomy</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        {%- for item in nav_items -%}
+          {%- assign parts = item | split: "," -%}
+          {%- assign label = parts[0] | strip -%}
+          {%- assign href = parts[1] | strip -%}
+          {%- assign target = href | relative_url -%}
+          {%- if href == "/" -%}
+            {%- if page.url == "/" -%}{% assign active = "is-active" %}{% else %}{% assign active = "" %}{% endif -%}
+          {%- else -%}
+            {%- if page.url contains href -%}{% assign active = "is-active" %}{% else %}{% assign active = "" %}{% endif -%}
+          {%- endif -%}
+          <li><a class="{{ active }}" href="{{ target }}">{{ label }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+  </div>
+</header>

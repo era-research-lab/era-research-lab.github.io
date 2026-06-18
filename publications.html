@@ -1,0 +1,47 @@
+---
+layout: page
+title: Publications
+eyebrow: Research output
+lead: Selected publications from the ERA Lab. Lab members are shown in bold.
+permalink: /publications/
+---
+
+<div class="callout">
+  <p class="note-todo"><strong>Maintainers:</strong> this list is a starting point. Add the lab's full publication record in <code>_data/publications.yml</code> (see the PI's <a href="{{ site.links.scholar }}" target="_blank" rel="noopener">Google Scholar</a>).</p>
+</div>
+
+{%- assign pubs = site.data.publications | sort: "year" | reverse -%}
+{%- assign years = pubs | map: "year" | uniq -%}
+
+{%- for year in years -%}
+<h2 class="pub-year">{{ year }}</h2>
+{%- assign year_pubs = pubs | where: "year", year -%}
+{%- for pub in year_pubs -%}
+<div class="pub">
+  <div class="pub__thumb {% unless pub.thumbnail %}pub__thumb--empty{% endunless %}">
+    {%- if pub.thumbnail -%}
+    <img src="{{ '/assets/images/projects/' | append: pub.thumbnail | relative_url }}" alt="{{ pub.title }} thumbnail" loading="lazy">
+    {%- else -%}
+    <i class="fas fa-file-lines"></i>
+    {%- endif -%}
+  </div>
+  <div class="pub__meta">
+    <p class="pub__title">{{ pub.title }}</p>
+    <p class="pub__authors">{{ pub.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    <p class="pub__venue">
+      {{ pub.venue }}, {{ pub.year }}
+      {%- if pub.note %}<span class="pub__note"><i class="fas fa-award"></i> {{ pub.note }}</span>{%- endif -%}
+    </p>
+    {%- if pub.links -%}
+    <div class="pub__links">
+      {%- for link in pub.links -%}
+      <a href="{{ link.url | relative_url }}"{% unless link.url contains '/projects/' %} target="_blank" rel="noopener"{% endunless %}>
+        {%- if link.icon -%}<i class="{{ link.icon }}"></i> {% endif -%}{{ link.label }}
+      </a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+  </div>
+</div>
+{%- endfor -%}
+{%- endfor -%}

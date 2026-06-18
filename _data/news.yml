@@ -1,0 +1,53 @@
+# ===========================================================
+# ERA Lab — news (most recent first)
+# Fields: date (YYYY-MM-DD), title, description (optional), link (optional),
+#         image (optional, in assets/images/news/).
+# Source: Prof. Xiaomin Lin's news feed.
+# ===========================================================
+
+- date: 2026-09-01
+  title: "PFS accepted to IROS 2026"
+  description: >-
+    Our work on Post-Fusion BEV Feature Stabilization for robust multimodal 3D
+    detection has been accepted to IROS 2026.
+  link: /projects/pfs/
+
+- date: 2025-09-21
+  title: "Talk at Rutgers University — AI for Health workshop"
+  description: "Prof. Lin presented at the AI for Health workshop at Rutgers University, New Brunswick."
+  link: "https://xiaominlin.github.io/files"
+
+- date: 2025-08-07
+  title: "ERA Lab launches at the University of South Florida"
+  description: >-
+    Prof. Xiaomin Lin officially joined USF as a Tenure-Track Assistant Professor
+    in Electrical Engineering and founded the Embodied Robotics and Autonomy Lab.
+  link: "https://www.usf.edu/engineering/ee/faculty-staff/lin-xiaomin.aspx"
+
+- date: 2025-05-21
+  title: "Recognized by the Institute for Systems Research"
+  description: >-
+    Honored for PhD achievements and contributions to robotics and underwater
+    ecosystem monitoring.
+
+- date: 2025-05-19
+  title: "Attending ICRA 2025"
+  description: "Prof. Lin attended ICRA 2025 (May 19–24)."
+
+- date: 2025-05-05
+  title: "Talks at the University of Central Florida"
+  description: "Invited talks in Computer Science and in Electrical & Computer Engineering at UCF."
+
+- date: 2025-04-02
+  title: "Talk at the 2025 AAAI Spring Symposium"
+  description: "Presented in AI for Engineering and Scientific Discoveries at the AAAI Spring Symposium Series."
+
+- date: 2024-12-01
+  title: "Joined the EEHPC Lab at Johns Hopkins University"
+  description: "Began collaborating with Dr. Tinoosh Mohsenin on edge AI for robotics."
+
+- date: 2024-10-01
+  title: "Best Control Framework Award at IROS workshop, Abu Dhabi"
+  description: >-
+    Recognized for the best control framework in autonomous navigation and control
+    at the IROS Autonomous Robotic Systems in Aquaculture workshop.

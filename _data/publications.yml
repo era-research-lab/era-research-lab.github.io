@@ -1,0 +1,32 @@
+# ===========================================================
+# ERA Lab — publications (grouped by year on the Publications page)
+#
+# Lab members are highlighted in bold automatically — list their exact names
+# in `highlight_authors` at the bottom of this file? No: instead, wrap the
+# member's name in **double asterisks** directly in the `authors` string.
+#
+# Fields: title, authors, venue, year, note (award/highlight), thumbnail
+#         (in assets/images/projects/, optional), links [{label,url,icon}].
+#
+# TODO: This list currently contains the publications available from the
+# source material. Add the lab's full publication record (see Google Scholar:
+# https://scholar.google.com/citations?user=nudP80UAAAAJ&hl=en ).
+# ===========================================================
+
+- title: "Post-Fusion Bird's-Eye-View Feature Stabilization for Robust Multimodal 3D Detection"
+  authors: "**Trung Tien Dong**, Dev Thakkar, Arman Sargolzaei, **Xiaomin Lin**"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  year: 2026
+  thumbnail: pfs.png
+  links:
+    - { label: Project, url: /projects/pfs/, icon: "fas fa-file-lines" }
+    - { label: arXiv,   url: "https://arxiv.org/abs/2603.05623", icon: "ai ai-arxiv" }
+    - { label: Video,   url: "https://youtu.be/-4BJK7Oi_yM", icon: "fab fa-youtube" }
+
+- title: "Odyssee: Autonomous Robotic Systems for Aquaculture Monitoring"
+  authors: "**Xiaomin Lin**, et al."
+  venue: "IEEE — Autonomous Robotic Systems in Aquaculture Workshop"
+  year: 2024
+  note: "Best Paper Award"
+  links:
+    - { label: Paper, url: "https://ieeexplore.ieee.org/document/11128133", icon: "fas fa-file-lines" }

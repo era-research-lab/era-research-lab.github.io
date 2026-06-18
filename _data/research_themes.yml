@@ -1,0 +1,52 @@
+# ===========================================================
+# ERA Lab — research themes (rendered on Home + Research pages)
+# `icon` is a Font Awesome class.
+# ===========================================================
+
+- title: Underwater Robot Perception
+  icon: fas fa-water
+  description: >-
+    Perception and autonomy for underwater vehicles operating in turbid, dynamic,
+    and GPS-denied marine environments.
+
+- title: 3D Computer Vision
+  icon: fas fa-cube
+  description: >-
+    Multimodal 3D detection, reconstruction, and scene understanding from cameras,
+    LiDAR, and sonar.
+
+- title: Multimodal Learning
+  icon: fas fa-layer-group
+  description: >-
+    Fusing heterogeneous sensors and modalities into robust representations for
+    real-world robotic decision-making.
+
+- title: Embodied AI
+  icon: fas fa-robot
+  description: >-
+    Agents that perceive, reason, and act — closing the loop between perception,
+    planning, and control on physical platforms.
+
+- title: Autonomous Systems
+  icon: fas fa-route
+  description: >-
+    Long-term autonomy for field robots, including navigation, mapping, and control
+    in challenging environments.
+
+- title: Synthetic Data & Digital Twins
+  icon: fas fa-clone
+  description: >-
+    Simulation-based data generation and digital twins that bridge the sim-to-real
+    gap for perception models.
+
+- title: Edge AI for Robotics
+  icon: fas fa-microchip
+  description: >-
+    Efficient algorithms and hardware-aware frameworks that bring perception and
+    reasoning onto resource-constrained edge devices.
+
+- title: LLMs for Robotics Reasoning
+  icon: fas fa-comments
+  description: >-
+    Integrating large language models and knowledge graphs for higher-level robot
+    reasoning and decision-making.

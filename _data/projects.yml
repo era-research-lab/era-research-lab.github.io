@@ -1,0 +1,77 @@
+# ===========================================================
+# ERA Lab — research projects
+#
+# HOW TO ADD A PROJECT:
+#   - Copy a block below and fill it in.
+#   - `image`    : filename in assets/images/projects/ (use placeholder.png if none).
+#   - `page`     : internal project page URL (optional). Create the page under
+#                  /projects/<slug>.md using layout: project.
+#   - `featured` : true to surface it on the Home page.
+#   - `links`    : list of { label, url, icon }. icon = Font Awesome class.
+# ===========================================================
+
+- title: "PFS: Post-Fusion BEV Feature Stabilization for Robust Multimodal 3D Detection"
+  slug: pfs
+  image: pfs.png
+  featured: true
+  badge: IROS 2026
+  description: >-
+    A lightweight, near-identity module that stabilizes intermediate bird's-eye-view
+    features of existing camera–LiDAR detectors, improving robustness under domain
+    shift and sensor degradation without retraining the detection head.
+  tags: [3D Detection, Multimodal Fusion, BEV, Robustness, Autonomous Driving]
+  people: [Trung Tien Dong, Xiaomin Lin]
+  page: /projects/pfs/
+  links:
+    - { label: Project, url: /projects/pfs/, icon: "fas fa-file-lines" }
+    - { label: Paper,   url: "https://arxiv.org/abs/2603.05623", icon: "ai ai-arxiv" }
+    - { label: Video,   url: "https://youtu.be/-4BJK7Oi_yM", icon: "fab fa-youtube" }
+
+- title: "Odyssee: Autonomous Robotic Systems for Aquaculture"
+  slug: odyssee
+  image: placeholder.png   # TODO: add a project teaser image
+  featured: true
+  badge: IROS Workshop · Best Paper
+  description: >-
+    A multi-institution effort on autonomous navigation and control for aquaculture
+    monitoring, recognized with the best control framework award at the IROS workshop
+    in Abu Dhabi. Led by Prof. Xiaomin Lin as lead and corresponding author.
+  tags: [Field Robotics, Autonomy, Aquaculture, Marine Robotics]
+  people: [Xiaomin Lin]
+  links:
+    - { label: Paper, url: "https://ieeexplore.ieee.org/document/11128133", icon: "fas fa-file-lines" }
+
+- title: "Underwater Perception for Marine Ecosystem Monitoring"
+  slug: underwater-perception
+  image: placeholder.png   # TODO: add a project teaser image
+  featured: true
+  description: >-
+    Frameworks for autonomous underwater vehicles to detect and map marine objects
+    such as oyster beds and coral reefs, combining real and synthetic data,
+    simulation-based methods, and multimodal sensing.
+  tags: [Underwater Robotics, 3D Vision, Perception, Environmental Monitoring]
+  people: [Xiaomin Lin]
+  # TODO: add project page, paper, code, and dataset links.
+
+- title: "Synthetic Data & Digital Twins for Robotics"
+  slug: synthetic-digital-twin
+  image: placeholder.png   # TODO: add a project teaser image
+  featured: false
+  description: >-
+    Simulation-based synthetic data generation and digital-twin pipelines that
+    bridge the sim-to-real gap for perception models deployed on field robots.
+  tags: [Synthetic Data, Digital Twin, Simulation, Sim-to-Real]
+  people: [Xiaomin Lin]
+  # TODO: add project page and supporting links.
+
+- title: "Edge AI & LLM Reasoning for Robotics"
+  slug: edge-ai-llm
+  image: placeholder.png   # TODO: add a project teaser image
+  featured: false
+  description: >-
+    Efficient algorithms and frameworks for deploying perception and reasoning on
+    edge devices, including integrating large language models with knowledge graphs
+    for robot decision-making.
+  tags: [Edge AI, LLM, Knowledge Graphs, Embedded Systems]
+  people: [Xiaomin Lin]
+  # TODO: add project page and supporting links.

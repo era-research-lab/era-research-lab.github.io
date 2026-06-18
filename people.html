@@ -1,0 +1,80 @@
+---
+layout: page
+title: People
+eyebrow: Our team
+lead: The ERA Lab brings together students and collaborators across robotics, computer vision, and AI.
+permalink: /people/
+---
+
+{%- assign d = site.data.people.director -%}
+
+<!-- ── Director ── -->
+<section class="people-section">
+  <h2 class="people-section__title">Director</h2>
+  <div class="people-section__count"></div>
+  <div class="director">
+    <div class="director__photo">
+      <img src="{{ '/assets/images/people/' | append: d.image | relative_url }}" alt="{{ d.name }}">
+    </div>
+    <div>
+      <h3>{{ d.name }}</h3>
+      <p class="director__role">{{ d.role }}</p>
+      <p class="director__affil">{{ d.affiliation }}</p>
+      <p class="director__bio">{{ d.bio }}</p>
+      {%- if d.interests -%}
+      <div class="tags" style="margin-bottom:1rem;">
+        {%- for i in d.interests -%}<span class="tag">{{ i }}</span>{%- endfor -%}
+      </div>
+      {%- endif -%}
+      <div class="director__links">
+        {%- if d.email -%}<a class="btn btn--sm btn--ghost" href="mailto:{{ d.email }}"><i class="fas fa-envelope"></i> Email</a>{%- endif -%}
+        {%- if d.links.website -%}<a class="btn btn--sm btn--ghost" href="{{ d.links.website }}" target="_blank" rel="noopener"><i class="fas fa-globe"></i> Website</a>{%- endif -%}
+        {%- if d.links.scholar -%}<a class="btn btn--sm btn--ghost" href="{{ d.links.scholar }}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Scholar</a>{%- endif -%}
+        {%- if d.links.github -%}<a class="btn btn--sm btn--ghost" href="{{ d.links.github }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>{%- endif -%}
+        {%- if d.links.linkedin -%}<a class="btn btn--sm btn--ghost" href="{{ d.links.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>{%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Member groups ── -->
+{%- for group in site.data.people.groups -%}
+<section class="people-section">
+  <h2 class="people-section__title">{{ group.title }}</h2>
+  <div class="people-section__count">{{ group.members | size }} members</div>
+  <div class="people-grid">
+    {%- for p in group.members -%}
+    {% include person-card.html person=p %}
+    {%- endfor -%}
+  </div>
+</section>
+{%- endfor -%}
+
+<!-- ── Alumni ── -->
+{%- if site.data.people.alumni -%}
+<section class="people-section">
+  <h2 class="people-section__title">Alumni &amp; Past Mentees</h2>
+  <div class="people-section__count">{{ site.data.people.alumni | size }} alumni</div>
+  <div class="people-grid">
+    {%- for p in site.data.people.alumni -%}
+    {% include person-card.html person=p %}
+    {%- endfor -%}
+  </div>
+</section>
+{%- endif -%}
+
+<!-- ── Collaborators ── -->
+{%- if site.data.people.collaborators -%}
+<section class="people-section">
+  <h2 class="people-section__title">Collaborators</h2>
+  <div class="people-section__count">External academic &amp; research collaborators</div>
+  <ul class="namelist">
+    {%- for c in site.data.people.collaborators -%}
+    <li>
+      {%- if c.url -%}<a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.name }}</a>{%- else -%}{{ c.name }}{%- endif -%}
+      <span class="role"><br>{{ c.affiliation }}</span>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}

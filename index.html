@@ -1,0 +1,143 @@
+---
+layout: default
+title: Home
+---
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero">
+  <div class="container hero__inner">
+    <span class="hero__eyebrow">Embodied Robotics &amp; Autonomy · University of South Florida</span>
+    <h1>Intelligent robots that perceive, reason, and act in the real world.</h1>
+    <p class="hero__lead">
+      The ERA Lab develops intelligent robotic systems for complex, real-world
+      environments. Our research spans computer vision, robot perception,
+      multimodal learning, autonomous systems, and embodied AI — with applications
+      in underwater robotics, field robotics, and intelligent autonomy.
+    </p>
+    <div class="hero__cta">
+      <a class="btn btn--accent" href="{{ '/research/' | relative_url }}">Explore our research</a>
+      <a class="btn btn--ghost" href="{{ '/opportunities/' | relative_url }}">Join the lab</a>
+    </div>
+
+    {%- assign member_count = 1 -%}
+    {%- for g in site.data.people.groups -%}{%- assign member_count = member_count | plus: g.members.size -%}{%- endfor -%}
+    <div class="stats">
+      <div class="stat">
+        <div class="stat__num">{{ member_count }}+</div>
+        <div class="stat__label">Researchers &amp; students</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">{{ site.data.research_themes | size }}</div>
+        <div class="stat__label">Research themes</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">USF</div>
+        <div class="stat__label">Tampa, Florida</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ RESEARCH AREAS ══════════ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <p class="section-head__eyebrow">What we work on</p>
+      <h2>Research areas</h2>
+      <p>We build perception and autonomy for robots operating in challenging,
+         unstructured environments.</p>
+    </div>
+    <div class="area-grid">
+      {%- for theme in site.data.research_themes limit: 6 -%}
+      <div class="area-card">
+        <div class="area-card__icon"><i class="{{ theme.icon }}"></i></div>
+        <h3>{{ theme.title }}</h3>
+        <p>{{ theme.description }}</p>
+      </div>
+      {%- endfor -%}
+    </div>
+    <div class="section-foot">
+      <a class="btn btn--ghost" href="{{ '/research/' | relative_url }}">See all research themes</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FEATURED PROJECTS ══════════ -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-head__eyebrow">Highlights</p>
+      <h2>Featured projects</h2>
+    </div>
+    <div class="card-grid">
+      {%- assign featured = site.data.projects | where: "featured", true -%}
+      {%- for project in featured limit: 3 -%}
+      <article class="project-card">
+        <div class="project-card__thumb">
+          {%- if project.badge -%}<span class="badge">{{ project.badge }}</span>{%- endif -%}
+          <img src="{{ '/assets/images/projects/' | append: project.image | relative_url }}" alt="{{ project.title }} thumbnail">
+        </div>
+        <div class="project-card__body">
+          <h3>
+            {%- if project.page -%}<a href="{{ project.page | relative_url }}">{{ project.title }}</a>
+            {%- else -%}{{ project.title }}{%- endif -%}
+          </h3>
+          <p class="project-card__desc">{{ project.description }}</p>
+          <div class="project-card__links">
+            {%- for link in project.links -%}
+            <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+            {%- endfor -%}
+          </div>
+        </div>
+      </article>
+      {%- endfor -%}
+    </div>
+    <div class="section-foot">
+      <a class="btn btn--ghost" href="{{ '/research/' | relative_url }}">View all projects</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ NEWS + PUBLICATIONS ══════════ -->
+<section class="section">
+  <div class="container" style="display:grid; grid-template-columns: 1.1fr 1fr; gap: 3rem;">
+    <div>
+      <div class="section-head"><h2 style="font-size:1.5rem;">Recent news</h2></div>
+      <ul class="news-mini">
+        {%- assign recent = site.data.news | sort: "date" | reverse -%}
+        {%- for item in recent limit: 4 -%}
+        <li>
+          <span class="date">{{ item.date | date: "%b %Y" }}</span>
+          {%- if item.link -%}<a href="{{ item.link | relative_url }}">{{ item.title }}</a>
+          {%- else -%}{{ item.title }}{%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+      <p style="margin-top:1rem;"><a href="{{ '/news/' | relative_url }}">All news →</a></p>
+    </div>
+    <div>
+      <div class="section-head"><h2 style="font-size:1.5rem;">Selected publications</h2></div>
+      <ul class="news-mini">
+        {%- assign pubs = site.data.publications | sort: "year" | reverse -%}
+        {%- for pub in pubs limit: 3 -%}
+        <li>
+          <span class="date">{{ pub.year }}</span>
+          {{ pub.title }}
+          {%- if pub.note %} <span class="pub__note">· {{ pub.note }}</span>{%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+      <p style="margin-top:1rem;"><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CTA ══════════ -->
+<section class="cta-band">
+  <div class="container">
+    <h2>Interested in joining the ERA Lab?</h2>
+    <p>We are always looking for motivated students and collaborators in robotics,
+       computer vision, machine learning, and embodied AI.</p>
+    <a class="btn btn--accent" href="{{ '/opportunities/' | relative_url }}">Opportunities &amp; contact</a>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+---
+layout: page
+title: News
+eyebrow: Updates
+lead: Talks, awards, milestones, and announcements from the ERA Lab.
+permalink: /news/
+---
+
+<div class="news-list">
+  {%- assign items = site.data.news | sort: "date" | reverse -%}
+  {%- for item in items -%}
+  <div class="news-item">
+    <div class="news-item__date">{{ item.date | date: "%b %-d, %Y" }}</div>
+    <div>
+      <p class="news-item__title">
+        {%- if item.link -%}<a href="{{ item.link | relative_url }}"{% if item.link contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ item.title }}</a>
+        {%- else -%}{{ item.title }}{%- endif -%}
+      </p>
+      {%- if item.description -%}<p class="news-item__desc">{{ item.description }}</p>{%- endif -%}
+    </div>
+  </div>
+  {%- endfor -%}
+</div>

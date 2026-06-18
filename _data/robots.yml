@@ -1,0 +1,55 @@
+# ===========================================================
+# ERA Lab — robots, platforms & hardware
+#
+# NOTE: The lab's hardware inventory was not available from the source
+# material, so the entries below are PLACEHOLDERS to establish the page
+# structure. Replace names, images, descriptions, and sensor lists with the
+# lab's actual platforms.  TODO items are marked inline.
+#
+# Fields: name, image (in assets/images/robots/, placeholder.png if none),
+#         short_description, sensors [list], status, related_projects [list].
+# ===========================================================
+
+- group: Underwater Robots
+  items:
+    - name: "Underwater Vehicle — TODO"
+      image: placeholder.png
+      short_description: >-
+        TODO: describe the lab's underwater platform used for marine perception
+        and mapping (e.g., ROV / AUV model).
+      sensors: [Stereo camera, Imaging sonar, IMU, Depth sensor]   # TODO: confirm
+      status: TODO
+      related_projects: [Underwater Perception for Marine Ecosystem Monitoring]
+
+- group: Ground Robots
+  items:
+    - name: "Mobile Ground Robot — TODO"
+      image: placeholder.png
+      short_description: >-
+        TODO: describe the lab's ground platform used for field robotics and
+        autonomy experiments.
+      sensors: [RGB-D camera, LiDAR, IMU, Wheel odometry]   # TODO: confirm
+      status: TODO
+      related_projects: []
+
+- group: Sensor Platforms
+  items:
+    - name: "Multimodal Sensor Rig — TODO"
+      image: placeholder.png
+      short_description: >-
+        TODO: describe the camera / LiDAR / sonar sensor suite used for
+        multimodal perception and data collection.
+      sensors: [Camera array, LiDAR, Sonar]   # TODO: confirm
+      status: TODO
+      related_projects: [PFS]
+
+- group: Computing Hardware
+  items:
+    - name: "Edge Compute — TODO"
+      image: placeholder.png
+      short_description: >-
+        TODO: describe the lab's edge computing hardware for on-board AI
+        (e.g., NVIDIA Jetson class devices).
+      sensors: []
+      status: TODO
+      related_projects: [Edge AI & LLM Reasoning for Robotics]

@@ -1,0 +1,30 @@
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__brand">
+      <p class="site-footer__name">{{ site.long_title }}</p>
+      <p class="site-footer__meta">{{ site.university }} · {{ site.location }}</p>
+      <p class="site-footer__meta">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </p>
+    </div>
+
+    <nav class="site-footer__links" aria-label="Footer">
+      <a href="{{ '/people/' | relative_url }}">People</a>
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/opportunities/' | relative_url }}">Join us</a>
+    </nav>
+
+    <div class="site-footer__social">
+      {%- if site.links.scholar -%}<a href="{{ site.links.scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>{%- endif -%}
+      {%- if site.links.github -%}<a href="{{ site.links.github }}" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>{%- endif -%}
+      {%- if site.links.linkedin -%}<a href="{{ site.links.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>{%- endif -%}
+      {%- if site.links.twitter -%}<a href="{{ site.links.twitter }}" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>{%- endif -%}
+    </div>
+  </div>
+  <div class="site-footer__copy">
+    <div class="container">
+      &copy; {{ 'now' | date: "%Y" }} {{ site.long_title }}. Built with Jekyll on GitHub Pages.
+    </div>
+  </div>
+</footer>

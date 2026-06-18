@@ -1,0 +1,62 @@
+---
+layout: page
+title: Research
+eyebrow: What we do
+lead: We develop perception and autonomy for robots that operate in challenging, unstructured, and safety-critical environments.
+permalink: /research/
+---
+
+<!-- ── Themes ── -->
+<section style="margin-bottom:3.5rem;">
+  <div class="area-grid">
+    {%- for theme in site.data.research_themes -%}
+    <div class="area-card">
+      <div class="area-card__icon"><i class="{{ theme.icon }}"></i></div>
+      <h3>{{ theme.title }}</h3>
+      <p>{{ theme.description }}</p>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+<!-- ── Projects ── -->
+<section>
+  <div class="section-head">
+    <p class="section-head__eyebrow">Selected work</p>
+    <h2 style="font-size:1.7rem;">Projects</h2>
+  </div>
+  <div class="card-grid card-grid--2">
+    {%- for project in site.data.projects -%}
+    <article class="project-card">
+      <div class="project-card__thumb">
+        {%- if project.badge -%}<span class="badge">{{ project.badge }}</span>{%- endif -%}
+        <img src="{{ '/assets/images/projects/' | append: project.image | relative_url }}" alt="{{ project.title }} thumbnail" loading="lazy">
+      </div>
+      <div class="project-card__body">
+        <h3>
+          {%- if project.page -%}<a href="{{ project.page | relative_url }}">{{ project.title }}</a>
+          {%- else -%}{{ project.title }}{%- endif -%}
+        </h3>
+        <p class="project-card__desc">{{ project.description }}</p>
+        {%- if project.tags -%}
+        <div class="tags" style="margin-bottom:0.8rem;">
+          {%- for t in project.tags -%}<span class="tag">{{ t }}</span>{%- endfor -%}
+        </div>
+        {%- endif -%}
+        {%- if project.people -%}
+        <p class="project-card__meta"><i class="fas fa-user-group"></i> {{ project.people | join: ", " }}</p>
+        {%- endif -%}
+        {%- if project.links -%}
+        <div class="project-card__links">
+          {%- for link in project.links -%}
+          <a href="{{ link.url | relative_url }}"{% unless link.url contains '/projects/' %} target="_blank" rel="noopener"{% endunless %}>
+            {%- if link.icon -%}<i class="{{ link.icon }}"></i> {% endif -%}{{ link.label }}
+          </a>
+          {%- endfor -%}
+        </div>
+        {%- endif -%}
+      </div>
+    </article>
+    {%- endfor -%}
+  </div>
+</section>

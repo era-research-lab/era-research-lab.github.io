@@ -1,0 +1,17 @@
+# ===========================================================
+# ERA Lab — Fun / lab culture gallery
+#
+# Add photos to assets/images/fun/ and reference them below.
+# Leave `image` empty to render a labelled placeholder tile.
+# Fields: image (filename in assets/images/fun/), caption, section.
+# Sections: Lab Photos, Field Trips, Robot Testing, Conferences,
+#           Behind the Scenes, Team Activities.
+# ===========================================================
+
+# TODO: replace these placeholder tiles with real lab photos.
+- { image: "", caption: "Add a lab group photo", section: "Lab Photos" }
+- { image: "", caption: "Field deployment / on-site testing", section: "Field Trips" }
+- { image: "", caption: "Robot testing in the lab", section: "Robot Testing" }
+- { image: "", caption: "Conference travel & presentations", section: "Conferences" }
+- { image: "", caption: "Behind the scenes", section: "Behind the Scenes" }
+- { image: "", caption: "Team activities & socials", section: "Team Activities" }

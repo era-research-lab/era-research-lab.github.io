@@ -1,0 +1,32 @@
+---
+layout: page
+title: Fun
+eyebrow: Lab culture
+lead: Life in the ERA Lab — field trips, robot testing, conferences, and team activities.
+permalink: /fun/
+---
+
+<div class="callout">
+  <p class="note-todo"><strong>Add photos:</strong> drop images into <code>assets/images/fun/</code> and list them in <code>_data/fun.yml</code>. Empty tiles below are placeholders.</p>
+</div>
+
+{%- assign sections = site.data.fun | map: "section" | uniq -%}
+{%- for section in sections -%}
+<section class="people-section">
+  <h2 class="people-section__title">{{ section }}</h2>
+  <div class="people-section__count"></div>
+  <div class="gallery">
+    {%- assign shots = site.data.fun | where: "section", section -%}
+    {%- for shot in shots -%}
+    <figure>
+      {%- if shot.image and shot.image != "" -%}
+      <img src="{{ '/assets/images/fun/' | append: shot.image | relative_url }}" alt="{{ shot.caption }}" loading="lazy">
+      {%- else -%}
+      <div class="gallery-placeholder"><i class="fas fa-image"></i></div>
+      {%- endif -%}
+      {%- if shot.caption -%}<figcaption>{{ shot.caption }}</figcaption>{%- endif -%}
+    </figure>
+    {%- endfor -%}
+  </div>
+</section>
+{%- endfor -%}

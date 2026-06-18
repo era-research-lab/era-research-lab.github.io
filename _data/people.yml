@@ -1,0 +1,265 @@
+# ===========================================================
+# ERA Lab — people
+# Source of truth: Prof. Xiaomin Lin's lab roster (members.yaml).
+#
+# HOW TO ADD A PERSON:
+#   - Add an entry under the appropriate group.
+#   - `image`  is a filename inside assets/images/people/
+#              Use "placeholder.png" if no photo is available (mark TODO).
+#   - Optional per-person links: linkedin, scholar, github, website, email.
+#   - `interests` is optional (kept empty for most — TODO: fill in).
+# ===========================================================
+
+director:
+  name: Xiaomin Lin
+  role: Director · Assistant Professor
+  image: xiaomin_lin.jpg
+  affiliation: >-
+    Electrical Engineering · Affiliated, Bellini College of AI (Computer Science) ·
+    Researcher, AI+X Institute — University of South Florida
+  email: xlin2@usf.edu
+  bio: >-
+    Xiaomin Lin is a tenure-track Assistant Professor at the University of South
+    Florida. He leads the ERA Lab, working at the intersection of robotics,
+    multimodal perception, and AI for challenging environments — including
+    underwater, agricultural, and healthcare domains. He received his PhD in
+    Electrical and Computer Engineering from the University of Maryland, advised
+    by Prof. Yiannis Aloimonos.
+  interests:
+    - Multimodal sensing for general robotics
+    - Underwater perception & autonomy
+    - Edge AI for robotics and healthcare
+    - LLMs for robotics reasoning
+  links:
+    scholar: https://scholar.google.com/citations?user=nudP80UAAAAJ&hl=en
+    linkedin: https://www.linkedin.com/in/xiaomin-lin/
+    github: https://github.com/xiaominlin
+    website: https://xiaominlin.github.io/
+
+# Ordered list of member groups rendered on the People page.
+groups:
+  - id: phd
+    title: PhD Students
+    members:
+      - name: Zhenqi Wu
+        role: PhD Student, USF (2025–present)
+        image: Zhenqi_Wu.jpeg
+        linkedin: https://www.linkedin.com/in/zhenqi-wu-55512122a/
+      - name: Utkarsh Grover
+        role: PhD Student, USF (2025–present)
+        image: UG.jpg
+        linkedin: https://www.linkedin.com/in/utkarsh-grover-5561881a8/
+      - name: Mingyang Mao
+        role: PhD Student, USF (2025–present)
+        image: Mingyang_Mao.jpeg
+        linkedin: https://www.linkedin.com/in/mingyang-mao-061b28197/
+      - name: Trung Tien Dong
+        role: PhD Student, USF (Incoming Fall 2026)
+        image: Trung_Dong.jpg
+        interests: 3D vision · underwater robotics · multimodal perception
+        linkedin: https://www.linkedin.com/in/trungdong28/
+        scholar: https://scholar.google.com/citations?user=G8nWNPsAAAAJ&hl=en
+        website: https://dongtrung28.github.io/
+      - name: Mohammed Ibrahim M
+        role: PhD Student, USF (Incoming Fall 2026)
+        image: mohammed-ibrahim-m.jpeg
+        linkedin: https://www.linkedin.com/in/mohammed-ibrahim-m-123aa524b/
+
+  - id: masters
+    title: Master's Students
+    members:
+      - name: Lara Radovanovic
+        role: Master's Student, USF (2025–present)
+        image: Lara_Radovanovic.jpeg
+        linkedin: https://www.linkedin.com/in/lara-radovanovic/
+      - name: Bhargav Rishi Medisetti
+        role: Master's Student, USF · co-mentored w/ Prof. Tingting Zhang (2025–present)
+        image: rishi.jpg
+        linkedin: https://www.linkedin.com/in/bhargav-rishi-medisetti/
+
+  - id: undergrad
+    title: Undergraduate Researchers
+    members:
+      - name: Micaiah Bartlett
+        role: Undergraduate Researcher, USF (2025–present)
+        image: Micaiah.jpeg
+        linkedin: https://www.linkedin.com/in/micaiahbartlett/
+      - name: Bao Dinh
+        role: Undergraduate Researcher, USF (2026–present)
+        image: baodinh.jpeg
+        linkedin: https://www.linkedin.com/in/baodn/
+      - name: Sahasra Kondapalli
+        role: Undergraduate Researcher, USF (2025–present)
+        image: Sahasra_Kondapalli.png
+        linkedin: https://www.linkedin.com/in/sahasra-kondapalli/
+      - name: Minh Duong Nguyen
+        role: Undergraduate Researcher, USF (2026–present)
+        image: minh_duong.jpeg
+        linkedin: https://www.linkedin.com/in/minh-duong-nguyen-/
+      - name: Mohamed Fouad
+        role: Undergraduate Researcher, USF (2026–present)
+        image: MohamedFouad.jpeg
+        linkedin: https://www.linkedin.com/in/mohamed-fouad9/
+      - name: Poyraz An
+        role: Undergraduate Researcher, USF (2025–present)
+        image: Poyraz_An.jpg
+        linkedin: https://www.linkedin.com/in/poyan09/
+      - name: Trung Nhan Ngo
+        role: Undergraduate Researcher, USF (2025–present)
+        image: placeholder.png  # TODO: add headshot
+        linkedin: https://www.linkedin.com/in/trung-nhan-ngo-usf/
+
+  - id: affiliated
+    title: Affiliated PhD Students
+    members:
+      - name: Aadi Palnitkar
+        role: PhD Student, University of Maryland (2021–present)
+        image: Aadi_Palnitkar.jpeg
+        linkedin: https://www.linkedin.com/in/aadi-palnitkar/
+      - name: Ravi Ranjan
+        role: PhD Student, Florida International University (2025–present)
+        image: ravi.png
+        linkedin: https://www.linkedin.com/in/rvranjan/
+      - name: Yuanjie Lu
+        role: PhD Student, George Mason University (2025–present)
+        image: Yuanjie_Lu.jpg
+        website: https://chais.gmu.edu/person/yuanjie-lu/
+      - name: Yisheng Zhang
+        role: PhD Student, University of Maryland, College Park (2025–present)
+        image: Yisheng_Zhang.jpeg
+        linkedin: https://www.linkedin.com/in/yisheng-zhang-377039329/
+      - name: Yangsheng Xu
+        role: PhD Student, University of Maryland, College Park (2025–present)
+        image: placeholder.png  # TODO: add headshot
+      - name: Wei-Yu Chen
+        role: PhD Student, University of Maryland, College Park (2023–present)
+        image: Wei-Yu.jpg
+        linkedin: https://www.linkedin.com/in/william-chen-01282b146/
+      - name: Boxun Hu
+        role: PhD Student, Johns Hopkins University (2025–present)
+        image: Boxun.jpeg
+        linkedin: https://www.linkedin.com/in/boxun-hu-xxx4290325/
+
+# Alumni & past mentees (most are now in industry or PhD programs elsewhere).
+alumni:
+  - name: Kushal Kapoor
+    role: PhD Student, University of Maryland (2024–2026)
+    image: kushal.png
+    linkedin: https://www.linkedin.com/in/kushalkapoor25/
+  - name: Edward Humes
+    role: PhD Student, Johns Hopkins University (2025–present)
+    image: Edward_Humes.jpeg
+    linkedin: https://www.linkedin.com/in/edward-humes-830b7217a/
+  - name: Yihong Feng
+    role: PhD Student, University of Arkansas (2024–present)
+    image: Yihong.jpeg
+    linkedin: https://www.linkedin.com/in/yihong-feng-340221143/
+  - name: Mahima Beltur
+    role: Master's Student, University of Maryland (2024–present)
+    image: Mahima_Beltur.jpeg
+    linkedin: https://www.linkedin.com/in/mahima-beltur/
+  - name: Yianni Karabatis
+    role: PhD Student, University of Maryland (2023–2024)
+    image: Yianni.jpg
+    linkedin: https://www.linkedin.com/in/yianni-karabatis/
+  - name: Cheng Liu
+    role: PhD Student, George Washington University (2022–2024)
+    image: Cheng_Liu.jpeg
+    linkedin: https://www.linkedin.com/in/chengliu2023/
+  - name: Vivek Mange
+    role: Robotics Engineer, University of Maryland (2024–2025)
+    image: vivek.jpeg
+    linkedin: https://www.linkedin.com/in/vivek-mange/
+  - name: Yashveer Jain
+    role: ML Engineer, Torc Robotics (2023–2024)
+    image: Yashveer_Jain.jpeg
+    linkedin: https://www.linkedin.com/in/yashveerjain/
+  - name: Abhinav Modi
+    role: Simulation Engineer, Applied Intuition (2024–2025)
+    image: Abhinav.jpeg
+    linkedin: https://www.linkedin.com/in/abhinavmodi16/
+  - name: Abhinav Bhamidipati
+    role: Humanoid Simulation Engineer, Apptronik (2023–2024)
+    image: Abhinav_Bhamidipati.jpeg
+    linkedin: https://www.linkedin.com/in/abhinav-bhamidipati/
+  - name: Hitesh Kyatham
+    role: Controls Systems Engineer, VPSP (2023–2025)
+    image: Hitesh.jpeg
+    linkedin: https://www.linkedin.com/in/hitesh-kyatham/
+  - name: Puneeth Kondamudi
+    role: Software Engineer, Amazon (2023–2025)
+    image: Puneeth.jpeg
+    linkedin: https://www.linkedin.com/in/puneethk26/
+  - name: Akshaj Gaur
+    role: Software Engineer, Databricks (2021–2024)
+    image: Akshaj.jpeg
+    linkedin: https://www.linkedin.com/in/akshajgaur/
+  - name: Arjun Suresh
+    role: Undergraduate, University of Maryland (2022–2025)
+    image: Arjun.jpeg
+    linkedin: https://www.linkedin.com/in/arjun-suresh-4bb96b28a/
+  - name: Vakul Raghavan
+    role: Undergraduate, Rutgers University (2023–2025)
+    image: vakul.jpg
+  - name: Taru Rustagi
+    role: Founding Engineer, Parallax (2020–2021)
+    image: Taru.jpeg
+    linkedin: https://www.linkedin.com/in/taru-rustagi/
+  - name: Rashmi Kapu
+    role: Jr. AI Software Engineer, Qcells Georgia (2023)
+    image: Rashmi_Kapu.jpeg
+    linkedin: https://www.linkedin.com/in/rashmi-kapu/
+  - name: Mayank Joshi
+    role: Software Engineer, Caterpillar Inc. (2021–2022)
+    image: Mayank.jpeg
+    linkedin: https://www.linkedin.com/in/mjoshi07/
+  - name: Nitesh Jha
+    role: Systems Engineer, Qualcomm Inc. (2021–2022)
+    image: Nitesh.jpeg
+    linkedin: https://www.linkedin.com/in/nitesh-jha08/
+  - name: Krithika Govindaraj
+    role: Computer Vision Engineer, Niantic (2019–2021)
+    image: Krithika.jpeg
+    linkedin: https://www.linkedin.com/in/krithika-govindaraj/
+
+# External collaborators (no headshots — rendered as a linked list).
+collaborators:
+  - name: Prof. Shahriar Negahdaripour
+    affiliation: University of Miami
+    url: https://people.miami.edu/profile/f99d45312215a158b90e333b23d8bfd2
+  - name: Prof. Ioannis Rekleitis
+    affiliation: University of South Carolina
+    url: https://sites.google.com/udel.edu/prof-ioannis-rekleitis/
+  - name: Prof. Leonardo Bobadilla
+    affiliation: Florida International University
+    url: https://www.cis.fiu.edu/faculty-staff/leonardo-bobadilla/
+  - name: Dr. Nare Karapetyan
+    affiliation: Woods Hole Oceanographic Institution
+    url: https://directory.whoi.edu/profile/nare-karapetyan/
+  - name: Dr. Marios Xanthidis
+    affiliation: SINTEF Ocean
+    url: https://sites.google.com/view/mariosx
+  - name: Dr. Yewei Huang
+    affiliation: Dartmouth College
+    url: https://www.linkedin.com/in/yewei-huang-970365241/
+  - name: Prof. Jane Shine
+    affiliation: University of Florida
+    url: https://mae.ufl.edu/people/faculty/primary/profiles/jane-jaejeong-shin/
+  - name: Dr. Isla Duporge
+    affiliation: Princeton University
+    url: https://scholar.google.co.uk/citations?user=oJ_KilcAAAAJ&hl=en
+  - name: Prof. Kevin Boswell
+    affiliation: Florida International University
+    url: https://case.fiu.edu/about/directory/profiles/boswell-kevin.html
+  - name: Prof. Dongyi Wang
+    affiliation: University of Arkansas
+    url: https://sfelab.uark.edu/about/
+  - name: Prof. Matthew Gray
+    affiliation: UMCES
+    url: https://www.umces.edu/matthew-gray
+  - name: Prof. Miao Yu
+    affiliation: University of Maryland
+    url: https://enme.umd.edu/clark/faculty/607/Miao-Yu
+  - name: Prof. Nikhil Chopra
+    affiliation: University of Maryland
+    url: https://terpconnect.umd.edu/~nchopra/Home.html

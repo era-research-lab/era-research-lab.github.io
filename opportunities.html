@@ -1,0 +1,79 @@
+---
+layout: page
+title: Opportunities & Contact
+eyebrow: Join us
+lead: We are always looking for motivated students and collaborators in robotics, computer vision, machine learning, and embodied AI.
+permalink: /opportunities/
+---
+
+<div style="display:grid; grid-template-columns: 1.5fr 1fr; gap:3rem; align-items:start;">
+  <div>
+    <p style="font-size:1.05rem; color:var(--text); margin-bottom:1.5rem;">
+      If you are interested in joining the lab, please send a concise email describing
+      your research interests, relevant experience, and why you are interested in our
+      group. Strong candidates have a background in robotics, AI, computer vision, or
+      embedded systems.
+    </p>
+
+    <div class="callout" style="margin-bottom:2rem;">
+      <p><strong>Before reaching out</strong>, prospective PhD students should read the
+      PI's research statement and complete the interest form. Please include your
+      <strong>CV, transcript, a statement of research interests,</strong> and any
+      <strong>relevant experience or publications</strong>.</p>
+      <p style="margin-top:0.8rem;">
+        <a class="btn btn--accent btn--sm" href="{{ site.recruiting_form }}" target="_blank" rel="noopener"><i class="fas fa-file-pen"></i> Prospective student form</a>
+      </p>
+    </div>
+
+    <h2 style="font-size:1.3rem; margin:2rem 0 1rem; color:var(--navy);">Prospective PhD students</h2>
+    <p style="color:var(--muted); margin-bottom:1.5rem;">
+      We recruit PhD students through the University of South Florida. Ideal applicants
+      have a strong research record and a background in robotics, AI, or embedded
+      systems. Please apply through the form above and review the PI's research
+      statement before contacting.
+    </p>
+
+    <h2 style="font-size:1.3rem; margin:2rem 0 1rem; color:var(--navy);">Master's students</h2>
+    <p style="color:var(--muted); margin-bottom:1.5rem;">
+      USF Master's students interested in robotics and perception research are welcome
+      to reach out with a CV and a short description of your interests.
+    </p>
+
+    <h2 style="font-size:1.3rem; margin:2rem 0 1rem; color:var(--navy);">Undergraduate researchers</h2>
+    <p style="color:var(--muted); margin-bottom:1.5rem;">
+      USF undergraduates looking for hands-on research experience in robotics, computer
+      vision, or machine learning are encouraged to email the PI with your interests and
+      availability.
+    </p>
+
+    <h2 style="font-size:1.3rem; margin:2rem 0 1rem; color:var(--navy);">Collaborators</h2>
+    <p style="color:var(--muted); margin-bottom:1.5rem;">
+      We welcome collaboration in robotics, AI, edge computing, and marine, agricultural,
+      and healthcare applications. Please get in touch to discuss joint projects.
+    </p>
+  </div>
+
+  <aside>
+    <div class="area-card" style="position:sticky; top:84px;">
+      <div class="area-card__icon"><i class="fas fa-envelope"></i></div>
+      <h3>Contact</h3>
+      <p style="color:var(--text); margin-bottom:0.3rem;"><strong>{{ site.pi_name }}</strong></p>
+      <p style="color:var(--muted); font-size:0.9rem; margin-bottom:0.3rem;">{{ site.pi_title }}</p>
+      <p style="margin-bottom:1rem;"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+      <h3 style="margin-top:1rem;">Location</h3>
+      <p style="color:var(--muted); font-size:0.9rem;">
+        Department of Electrical Engineering<br>
+        {{ site.university }}<br>
+        {{ site.location }}
+      </p>
+
+      <div style="display:flex; gap:0.9rem; margin-top:1.2rem; font-size:1.2rem;">
+        {%- if site.links.scholar -%}<a href="{{ site.links.scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>{%- endif -%}
+        {%- if site.links.github -%}<a href="{{ site.links.github }}" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>{%- endif -%}
+        {%- if site.links.linkedin -%}<a href="{{ site.links.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>{%- endif -%}
+        {%- if site.links.twitter -%}<a href="{{ site.links.twitter }}" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>{%- endif -%}
+      </div>
+    </div>
+  </aside>
+</div>
