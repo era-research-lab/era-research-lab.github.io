@@ -41,6 +41,23 @@
   links:
     - { label: Paper, url: "https://ieeexplore.ieee.org/document/11128133", icon: "fas fa-file-lines" }
 
+- title: "LADBench: A Benchmark for Logical Anomaly Detection in Images"
+  slug: ladbench.md
+  image: ladbench.png
+  featured: true
+  badge: ICDL 2026
+  description: >-
+    A benchmark to measure common sense logical reasoning of Vision Language Models using
+    curated synthetic images with defined logical anomalies accross real life categories
+    to improve VLM preparedness for open world deployment. 
+  tags: [Vision Language Models, Logical Anomaly Detection, Multimodal Reasoning, Visual Question Answering]
+  people: [Sahasra Kondapalli, Lara Radovanovic, Aadi Palnitkar, Mingyang Mao, Xiaomin Lin]
+  page: /projects/ladbench/
+  links:
+    - { label: Project, url: /projects/ladbench/, icon: "fas fa-file-lines" }
+    - { label: Paper,   url: "https://arxiv.org/abs/2606.17433", icon: "ai ai-arxiv" }
+    - { label: Code and Dataset,   url: "https://huggingface.co/datasets/SahasraK/LADBench", icon: "fab fa-hugging-face" }
+
 - title: "Underwater Perception for Marine Ecosystem Monitoring"
   slug: underwater-perception
   image: placeholder.png   # TODO: add a project teaser image
@@ -75,3 +92,4 @@
   tags: [Edge AI, LLM, Knowledge Graphs, Embedded Systems]
   people: [Xiaomin Lin]
   # TODO: add project page and supporting links.
+
