@@ -23,6 +23,16 @@
     - { label: arXiv,   url: "https://arxiv.org/abs/2603.05623", icon: "ai ai-arxiv" }
     - { label: Video,   url: "https://youtu.be/-4BJK7Oi_yM", icon: "fab fa-youtube" }
 
+- title: "LADBench: A Benchmark for Logical Anomaly Detection in Images"
+  authors: "Sahasra Kondapalli, Lara Radovanovic, Aadi Palnitkar, Mingyang Mao, Xiaomin Lin"
+  venue: "IEEE International Conference on Development and Learning (ICDL)"
+  year: 2026
+  thumbnail: ladbench.png
+  links:
+    - { label: Project, url: /projects/ladbench/, icon: "fas fa-file-lines" }
+    - { label: Paper,   url: "https://arxiv.org/abs/2606.17433", icon: "ai ai-arxiv" }
+    - { label: Code and Dataset,   url: "https://huggingface.co/datasets/SahasraK/LADBench", icon: "fab fa-hugging-face" }
+
 - title: "Odyssee: Autonomous Robotic Systems for Aquaculture Monitoring"
   authors: "**Xiaomin Lin**, et al."
   venue: "IEEE — Autonomous Robotic Systems in Aquaculture Workshop"
