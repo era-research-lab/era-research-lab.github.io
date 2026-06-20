@@ -20,12 +20,45 @@
     features of existing camera–LiDAR detectors, improving robustness under domain
     shift and sensor degradation without retraining the detection head.
   tags: [3D Detection, Multimodal Fusion, BEV, Robustness, Autonomous Driving]
-  people: [Trung Tien Dong, Xiaomin Lin]
+  people: [Trung Tien Dong, Dev Thakkar, Arman Sargolzaei, Xiaomin Lin]
   page: /projects/pfs/
   links:
     - { label: Project, url: /projects/pfs/, icon: "fas fa-file-lines" }
     - { label: Paper,   url: "https://arxiv.org/abs/2603.05623", icon: "ai ai-arxiv" }
     - { label: Video,   url: "https://youtu.be/-4BJK7Oi_yM", icon: "fab fa-youtube" }
+
+- title: "CORAL: Hierarchical VLM Framework for Underwater Monitoring"
+  slug: coral
+  image: coral-teaser.png
+  featured: true
+  badge: IROS 2026
+  description: >-
+    A hierarchical VLM framework that decouples high-level semantic reasoning from
+    low-level reactive control for autonomous underwater oyster reef monitoring.
+  tags: [Vision Language Models, Underwater Robotics, Planning, Embodied AI]
+  people: [Zhenqi Wu, Yuanjie Lu, Xuesu Xiao, Xiaomin Lin]
+  page: /projects/coral/
+  links:
+    - { label: Project, url: /projects/coral/, icon: "fas fa-file-lines" }
+    - { label: Paper,   url: "https://arxiv.org/abs/2603.14786", icon: "ai ai-arxiv" }
+    - { label: Video,   url: "https://youtu.be/a44yB6STV7Y", icon: "fab fa-youtube" }
+
+- title: "LADBench: A Benchmark for Logical Anomaly Detection in Images"
+  slug: ladbench
+  image: ladbench.png
+  featured: true
+  badge: ICDL 2026
+  description: >-
+    A benchmark to measure common sense logical reasoning of Vision Language Models using
+    curated synthetic images with defined logical anomalies accross real life categories
+    to improve VLM preparedness for open world deployment. 
+  tags: [Vision Language Models, Logical Anomaly Detection, Multimodal Reasoning, Visual Question Answering]
+  people: [Sahasra Kondapalli, Lara Radovanovic, Aadi Palnitkar, Mingyang Mao, Xiaomin Lin]
+  page: /projects/ladbench/
+  links:
+    - { label: Project, url: /projects/ladbench/, icon: "fas fa-file-lines" }
+    - { label: Paper,   url: "https://arxiv.org/abs/2606.17433", icon: "ai ai-arxiv" }
+    - { label: Code and Dataset,   url: "https://huggingface.co/datasets/SahasraK/LADBench", icon: "fab fa-hugging-face" }
 
 - title: "Odyssee: Autonomous Robotic Systems for Aquaculture"
   slug: odyssee
@@ -41,22 +74,6 @@
   links:
     - { label: Paper, url: "https://ieeexplore.ieee.org/document/11128133", icon: "fas fa-file-lines" }
 
-- title: "LADBench: A Benchmark for Logical Anomaly Detection in Images"
-  slug: ladbench.md
-  image: ladbench.png
-  featured: true
-  badge: ICDL 2026
-  description: >-
-    A benchmark to measure common sense logical reasoning of Vision Language Models using
-    curated synthetic images with defined logical anomalies accross real life categories
-    to improve VLM preparedness for open world deployment. 
-  tags: [Vision Language Models, Logical Anomaly Detection, Multimodal Reasoning, Visual Question Answering]
-  people: [Sahasra Kondapalli, Lara Radovanovic, Aadi Palnitkar, Mingyang Mao, Xiaomin Lin]
-  page: /projects/ladbench/
-  links:
-    - { label: Project, url: /projects/ladbench/, icon: "fas fa-file-lines" }
-    - { label: Paper,   url: "https://arxiv.org/abs/2606.17433", icon: "ai ai-arxiv" }
-    - { label: Code and Dataset,   url: "https://huggingface.co/datasets/SahasraK/LADBench", icon: "fab fa-hugging-face" }
 
 - title: "Underwater Perception for Marine Ecosystem Monitoring"
   slug: underwater-perception
