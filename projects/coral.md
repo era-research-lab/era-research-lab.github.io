@@ -22,7 +22,6 @@ links:
   - { label: "Video", url: "https://youtu.be/a44yB6STV7Y",     icon: "fab fa-youtube" }
   - { label: "Code",  url: "#",                                 icon: "fab fa-github" }
 
-published: false
 ---
 
 <!-- Teaser: exported from the original overview.pdf at 300 DPI. -->
