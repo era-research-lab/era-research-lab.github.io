@@ -13,7 +13,7 @@ affiliations: "Electrical & Computer Engineering · Mechanical Engineering — U
 links:
   - { label: "arXiv", url: "https://arxiv.org/abs/2603.05623", icon: "ai ai-arxiv" }
   - { label: "Video", url: "https://youtu.be/-4BJK7Oi_yM", icon: "fab fa-youtube" }
-  - { label: "Code (coming soon)", url: "#", icon: "fab fa-github" }
+  - { label: "Code", url: "https://github.com/era-research-lab/PFS.git", icon: "fab fa-github" }
 ---
 
 <figure>
