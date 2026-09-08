@@ -9,24 +9,24 @@
   description: >-
     Prof. Lin joined the Organizing Committee for the 5th MaCVi Workshop and the
     Program Committee for SENSE, both at WACV 2027.
-  link: "https://macvi.org/workshop/macvi27/people"
+  links:
+    - label: "MaCVi"
+      url: "https://macvi.org/workshop/macvi27/people"
+    - label: "SENSE"
+      url: "https://sensewacv.github.io/Website/"
 
 - date: 2026-09-01
-  title: "PFS accepted to IROS 2026"
+  title: "Three papers accepted to IROS 2026"
   description: >-
-    Our work on Post-Fusion BEV Feature Stabilization for robust multimodal 3D
-    detection has been accepted to IROS 2026.
-  link: /projects/pfs/
-
-- date: 2026-09-01
-  title: "APPLV accepted to IROS 2026"
-  description: "APPLV has been accepted to IROS 2026."
-  link: "https://arxiv.org/pdf/2603.08862"
-
-- date: 2026-09-01
-  title: "CORAL accepted to IROS 2026"
-  description: "CORAL has been accepted to IROS 2026."
-  link: "https://arxiv.org/pdf/2603.14786"
+    Three ERA Lab papers have been accepted to IROS 2026: Post-Fusion BEV Feature
+    Stabilization (PFS), APPLV, and CORAL.
+  links:
+    - label: "PFS"
+      url: /projects/pfs/
+    - label: "APPLV"
+      url: "https://arxiv.org/pdf/2603.08862"
+    - label: "CORAL"
+      url: "https://arxiv.org/pdf/2603.14786"
 
 - date: 2026-08-01
   title: "Program Committee, DroneSys Workshop at ACM/IEEE SEC 2026"
@@ -42,7 +42,7 @@
     CVPR 2026.
   link: "https://openreview.net/forum?id=86HyQOUle8"
 
-- date: 2026-06-01
+- date: 2026-06-15
   title: "NSF panel reviewer for Research in AI/ML"
   description: >-
     Prof. Lin served as an NSF panel reviewer for the Research in AI/ML program.
@@ -60,7 +60,7 @@
   description: "LADBench has been accepted to ICDL 2026."
   link: "https://arxiv.org/pdf/2606.17433"
 
-- date: 2026-05-01
+- date: 2026-05-23
   title: "Session Chair at OCEANS 2026, Sanya"
   description: >-
     Chaired the Imaging and Vision I and Sonar Imaging sessions at OCEANS 2026 in
