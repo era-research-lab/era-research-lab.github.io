@@ -54,16 +54,20 @@ groups:
         image: Mingyang_Mao.jpeg
         linkedin: https://www.linkedin.com/in/mingyang-mao-061b28197/
       - name: Trung Tien Dong
-        role: PhD Student, USF (Incoming Fall 2026)
+        role: PhD Student, USF (2026-present)
         image: Trung_Dong.jpg
         interests: 3D vision · underwater robotics · multimodal perception
         linkedin: https://www.linkedin.com/in/trungdong28/
         scholar: https://scholar.google.com/citations?user=G8nWNPsAAAAJ&hl=en
         website: https://dongtrung28.github.io/
       - name: Mohammed Ibrahim M
-        role: PhD Student, USF (Incoming Fall 2026)
+        role: PhD Student, USF (2026-present)
         image: mohammed-ibrahim-m.jpeg
         linkedin: https://www.linkedin.com/in/mohammed-ibrahim-m-123aa524b/
+      - name: Sheimy Paz serpa
+        role: PhD Student, USF (2026-present)
+        image: placeholder.png  # TODO: add headshot
+        linkedin: https://www.linkedin.com/in/sheimy-paz-serpa-a55586155/
 
   - id: masters
     title: Master's Students
@@ -76,14 +80,22 @@ groups:
         role: Master's Student, USF · co-mentored w/ Prof. Tingting Zhang (2025–present)
         image: rishi.jpg
         linkedin: https://www.linkedin.com/in/bhargav-rishi-medisetti/
+      - name: Urja Panta
+        role: Master's Student, USF · co-mentored w/ Prof. Tingting Zhang (2026–present)
+        image: urja.jpg
+        linkedin: https://www.linkedin.com/in/urja-panta/
+      - name: Seyoung Kan
+        role: Master's Student, USF · co-mentored w/ Prof. Tingting Zhang (2026–present)
+        image: seyoung.jpg
+        linkedin: https://www.linkedin.com/in/seyoung-kan-75b2212b8/
+      - name: Tanvir Ibrahim
+        role: Master's Student, USF (2026–present)
+        image: tanvir.jpg
+        linkedin: https://www.linkedin.com/in/tanvir-ibrahim-t11/  
 
   - id: undergrad
     title: Undergraduate Researchers
     members:
-      - name: Micaiah Bartlett
-        role: Undergraduate Researcher, USF (2025–present)
-        image: Micaiah.jpeg
-        linkedin: https://www.linkedin.com/in/micaiahbartlett/
       - name: Bao Dinh
         role: Undergraduate Researcher, USF (2026–present)
         image: baodinh.jpeg
@@ -104,10 +116,6 @@ groups:
         role: Undergraduate Researcher, USF (2025–present)
         image: Poyraz_An.jpg
         linkedin: https://www.linkedin.com/in/poyan09/
-      - name: Trung Nhan Ngo
-        role: Undergraduate Researcher, USF (2025–present)
-        image: placeholder.png  # TODO: add headshot
-        linkedin: https://www.linkedin.com/in/trung-nhan-ngo-usf/
 
   - id: affiliated
     title: Affiliated PhD Students
@@ -116,6 +124,13 @@ groups:
         role: PhD Student, University of Maryland (2021–present)
         image: Aadi_Palnitkar.jpeg
         linkedin: https://www.linkedin.com/in/aadi-palnitkar/
+      - name: Arjun Suresh
+        role: PhD Student, University of Massachusetts Amherst (2022–present)
+        image: Arjun.jpeg
+        linkedin: https://www.linkedin.com/in/arjun-suresh-4bb96b28a/
+      - name: Vakul Raghavan
+        role: Undergraduate, Rutgers University (2023–present)
+        image: vakul.jpg
       - name: Ravi Ranjan
         role: PhD Student, Florida International University (2025–present)
         image: ravi.png
@@ -194,13 +209,6 @@ alumni:
     role: Software Engineer, Databricks (2021–2024)
     image: Akshaj.jpeg
     linkedin: https://www.linkedin.com/in/akshajgaur/
-  - name: Arjun Suresh
-    role: Undergraduate, University of Maryland (2022–2025)
-    image: Arjun.jpeg
-    linkedin: https://www.linkedin.com/in/arjun-suresh-4bb96b28a/
-  - name: Vakul Raghavan
-    role: Undergraduate, Rutgers University (2023–2025)
-    image: vakul.jpg
   - name: Taru Rustagi
     role: Founding Engineer, Parallax (2020–2021)
     image: Taru.jpeg
@@ -221,6 +229,14 @@ alumni:
     role: Computer Vision Engineer, Niantic (2019–2021)
     image: Krithika.jpeg
     linkedin: https://www.linkedin.com/in/krithika-govindaraj/
+  - name: Micaiah Bartlett
+    role: Undergraduate Researcher, USF (2025–present)
+    image: Micaiah.jpeg
+    linkedin: https://www.linkedin.com/in/micaiahbartlett/
+  - name: Trung Nhan Ngo
+    role: Undergraduate Researcher, USF (2025–present)
+    image: placeholder.png  # TODO: add headshot
+    linkedin: https://www.linkedin.com/in/trung-nhan-ngo-usf/
 
 # External collaborators (no headshots — rendered as a linked list).
 collaborators:
@@ -239,27 +255,15 @@ collaborators:
   - name: Dr. Marios Xanthidis
     affiliation: SINTEF Ocean
     url: https://sites.google.com/view/mariosx
-  - name: Dr. Yewei Huang
-    affiliation: Dartmouth College
-    url: https://www.linkedin.com/in/yewei-huang-970365241/
   - name: Prof. Jane Shine
     affiliation: University of Florida
     url: https://mae.ufl.edu/people/faculty/primary/profiles/jane-jaejeong-shin/
-  - name: Dr. Isla Duporge
-    affiliation: Princeton University
-    url: https://scholar.google.co.uk/citations?user=oJ_KilcAAAAJ&hl=en
   - name: Prof. Kevin Boswell
     affiliation: Florida International University
     url: https://case.fiu.edu/about/directory/profiles/boswell-kevin.html
   - name: Prof. Dongyi Wang
     affiliation: University of Arkansas
     url: https://sfelab.uark.edu/about/
-  - name: Prof. Matthew Gray
-    affiliation: UMCES
-    url: https://www.umces.edu/matthew-gray
   - name: Prof. Miao Yu
     affiliation: University of Maryland
     url: https://enme.umd.edu/clark/faculty/607/Miao-Yu
-  - name: Prof. Nikhil Chopra
-    affiliation: University of Maryland
-    url: https://terpconnect.umd.edu/~nchopra/Home.html
