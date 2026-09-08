@@ -4,6 +4,12 @@
 #         image (optional, in assets/images/news/).
 # Source: Prof. Xiaomin Lin's news feed.
 # ===========================================================
+- date: 2026-07-01
+  title: "Committee roles at WACV 2027"
+  description: >-
+    Prof. Lin joined the Organizing Committee for the 5th MaCVi Workshop and the
+    Program Committee for SENSE, both at WACV 2027.
+  link: "https://macvi.org/workshop/macvi27/people"
 
 - date: 2026-09-01
   title: "PFS accepted to IROS 2026"
@@ -12,10 +18,149 @@
     detection has been accepted to IROS 2026.
   link: /projects/pfs/
 
+- date: 2026-09-01
+  title: "APPLV accepted to IROS 2026"
+  description: "APPLV has been accepted to IROS 2026."
+  link: "https://arxiv.org/pdf/2603.08862"
+
+- date: 2026-09-01
+  title: "CORAL accepted to IROS 2026"
+  description: "CORAL has been accepted to IROS 2026."
+  link: "https://arxiv.org/pdf/2603.14786"
+
+- date: 2026-08-01
+  title: "Program Committee, DroneSys Workshop at ACM/IEEE SEC 2026"
+  description: >-
+    Prof. Lin is serving on the Program Committee for the DroneSys Workshop at
+    ACM/IEEE SEC 2026.
+  link: "https://dronesys.site/"
+
+- date: 2026-07-01
+  title: "WaterGen accepted to ECCV 2026"
+  description: >-
+    WaterGen was accepted to ECCV 2026, and to the 3rd SynData4CV workshop at
+    CVPR 2026.
+  link: "https://openreview.net/forum?id=86HyQOUle8"
+
+- date: 2026-06-01
+  title: "NSF panel reviewer for Research in AI/ML"
+  description: >-
+    Prof. Lin served as an NSF panel reviewer for the Research in AI/ML program.
+  link: "https://www.nsf.gov/funding/opportunities/future-core-foundations-core-research-ai-ml-nsf-core"
+
+- date: 2026-06-01
+  title: "Session Chair at PAKDD 2026"
+  description: >-
+    Chaired the Large Language Model Session 1A at PAKDD 2026, where Multi-RAG was
+    presented.
+  link: "https://www.pakdd2026.org/technical-program"
+
+- date: 2026-06-01
+  title: "LADBench accepted to ICDL 2026"
+  description: "LADBench has been accepted to ICDL 2026."
+  link: "https://arxiv.org/pdf/2606.17433"
+
+- date: 2026-05-01
+  title: "Session Chair at OCEANS 2026, Sanya"
+  description: >-
+    Chaired the Imaging and Vision I and Sonar Imaging sessions at OCEANS 2026 in
+    Sanya.
+  link: "https://program-sanya26.oceanstechnical.org/glance.cfm"
+
+- date: 2026-05-01
+  title: "Faculty presentation at the 2nd Bellini College REU Symposium"
+  description: >-
+    Prof. Lin gave a faculty presentation and joined the panel discussion at the
+    2nd Bellini College REU Symposium at USF.
+  link: "https://www.usf.edu/ai-cybersecurity-computing/events/bcreus-spring-26.aspx"
+
+- date: 2026-04-06
+  title: "ERA Lab demos at the USF Engineering Expo"
+  description: "The lab hosted hands-on robotics demos at the USF Engineering Expo."
+  link: "https://www.usf.edu/engineering/"
+
+- date: 2026-04-01
+  title: "G-Drift MIA accepted to ICPR 2026"
+  description: "G-Drift MIA has been accepted to ICPR 2026."
+  link: "https://arxiv.org/pdf/2604.00419"
+
+- date: 2026-03-01
+  title: "CatRAG accepted to IJCNN 2026"
+  description: "CatRAG has been accepted to IJCNN 2026."
+  link: "https://arxiv.org/abs/2603.21524"
+
+- date: 2026-02-01
+  title: "RAZOR accepted to the CVPR 2026 Findings Track"
+  description: "RAZOR has been accepted to the CVPR 2026 Findings Track."
+  link: "https://arxiv.org/pdf/2603.14819"
+
+- date: 2026-02-01
+  title: "Associate Editor for IROS 2026"
+  description: "Prof. Lin is serving as an Associate Editor for IROS 2026."
+  link: "https://2026.ieee-iros.org/"
+
+- date: 2026-01-01
+  title: "DEVCOM Army Research Laboratory CRADA launched"
+  description: >-
+    Prof. Lin is technical point of contact for a new CRADA with the DEVCOM Army
+    Research Laboratory on Efficient Multimodal Learning.
+
+- date: 2026-01-01
+  title: "Teaching Computer Vision and Pattern Recognition at USF"
+  description: >-
+    Prof. Lin is teaching EEL 4935/6935 Computer Vision and Pattern Recognition in
+    Spring 2026.
+  link: "https://piazza.com/class/mkctveu05hl5hz"
+
+- date: 2026-01-01
+  title: "Faculty Advisor for the IEEE RAS Student Branch Chapter at USF"
+  description: >-
+    Prof. Lin is serving as Faculty Advisor for the IEEE Robotics and Automation
+    Society Student Branch Chapter at USF.
+
+- date: 2025-12-01
+  title: "HiCL accepted to AAAI 2026"
+  description: "HiCL has been accepted to AAAI 2026."
+  link: "https://ojs.aaai.org/index.php/AAAI/article/view/39411/43372"
+
+- date: 2025-12-01
+  title: "Multi-RAG accepted to PAKDD 2026"
+  description: "Multi-RAG has been accepted to PAKDD 2026."
+  link: "https://arxiv.org/abs/2505.23990"
+
+- date: 2025-11-10
+  title: "Rhino detection work published in Scientific Reports"
+  description: >-
+    Our work on automated rhinoceros detection in satellite imagery appeared in
+    Scientific Reports, with coverage in Maryland Today and USF World.
+  link: "https://www.nature.com/articles/s41598-025-24178-2"
+
+- date: 2025-10-03
+  title: "Department seminar at USF Electrical Engineering"
+  description: >-
+    Prof. Lin gave the seminar "From Human Cognition to Ocean" in the USF
+    Electrical Engineering department.
+  link: "https://xiaominlin.github.io/files/Lin_Seminar.pdf"
+
+- date: 2025-10-01
+  title: "BitMedViT presented at ICCAD 2025"
+  description: "BitMedViT was presented at ICCAD 2025."
+  link: "https://ieeexplore.ieee.org/abstract/document/11240999"
+
+- date: 2025-10-01
+  title: "ViewActive presented at IROS 2025"
+  description: "ViewActive was presented at IROS 2025."
+  link: "https://ieeexplore.ieee.org/abstract/document/11247705"
+
 - date: 2025-09-21
   title: "Talk at Rutgers University — AI for Health workshop"
   description: "Prof. Lin presented at the AI for Health workshop at Rutgers University, New Brunswick."
   link: "https://xiaominlin.github.io/files"
+
+- date: 2025-09-01
+  title: "OysterBot presented at OCEANS 2025, Great Lakes"
+  description: "OysterBot was presented at OCEANS 2025 in the Great Lakes."
+  link: "https://ieeexplore.ieee.org/abstract/document/11245159"
 
 - date: 2025-08-07
   title: "ERA Lab launches at the University of South Florida"
@@ -42,12 +187,24 @@
   title: "Talk at the 2025 AAAI Spring Symposium"
   description: "Presented in AI for Engineering and Scientific Discoveries at the AAAI Spring Symposium Series."
 
-- date: 2024-12-01
-  title: "Joined the EEHPC Lab at Johns Hopkins University"
-  description: "Began collaborating with Dr. Tinoosh Mohsenin on edge AI for robotics."
+- date: 2025-02-27
+  title: "Talk at the University of South Florida"
+  description: "Invited talk in Electrical Engineering at USF."
 
-- date: 2024-10-01
-  title: "Best Control Framework Award at IROS workshop, Abu Dhabi"
+- date: 2025-02-24
+  title: "Presentation at Virginia Tech"
+  description: "Presented in Aerospace and Ocean Engineering at Virginia Tech."
+
+- date: 2025-02-21
+  title: "Talk at The Catholic University of America"
+  description: "Invited talk in Electrical Engineering and Computer Science."
+
+- date: 2025-02-19
+  title: "Talk at UMBC"
+  description: "Invited talk in the EECS department at UMBC."
+
+- date: 2025-01-01
+  title: "Program Committee, AAAI 2025 Spring Symposium"
   description: >-
-    Recognized for the best control framework in autonomous navigation and control
-    at the IROS Autonomous Robotic Systems in Aquaculture workshop.
+    Prof. Lin served on the Program Committee for the Gen AI at Edge symposium in
+    the AAAI 2025 Spring Symposium Series.
