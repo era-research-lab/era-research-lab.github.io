@@ -31,6 +31,14 @@
       sensors: [RGB-D camera, LiDAR, IMU, Wheel odometry]   # TODO: confirm
       status: TODO
       related_projects: []
+    - name: "Unitree GO2"
+      image: go2.png
+      short_description: >-
+        Unitree GO2: Quadruped robot dog used for LiDAR-based 2D and 3D indoor mapping
+        and autonomous building inspection.
+      sensors: [4D LiDAR L1, RGB camera, IMU]
+      status: Active
+      related projects: []
 
 - group: Sensor Platforms
   items:
